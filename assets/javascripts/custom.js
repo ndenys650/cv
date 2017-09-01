@@ -9,7 +9,7 @@ $(document).ready(function() {
   }, 1000);
 
   $("#typed").typed({
-    strings: ["Visionary Web Developer", "Professional UI / UX Designer", "Aspiring to be Full Stack", "Welcome!"],
+    strings: ["Bay Area Native. React Native.", "Visionary Web Developer.", "Aspiring Full Stack.", "Welcome!"],
     typeSpeed: 30,
     startDelay: 0,
     backSpeed: 30,
