@@ -9,7 +9,7 @@ $(document).ready(function() {
   }, 1000);
 
   $("#typed").typed({
-    strings: ["I Am Passionate Designer", "Expert UI / UX Designer", "Excellent Front End Developer"],
+    strings: ["Visionary Web Developer", "Professional UI / UX Designer", "Aspiring to be Full Stack", "Welcome!"],
     typeSpeed: 30,
     startDelay: 0,
     backSpeed: 30,
@@ -77,6 +77,7 @@ $(document).ready(function() {
   wow.init();
 
   // -------------- Jquery CountTo (Project Counter) -------------- 
+  
  $('.counter').appear(function() {
     $('.timer').each(count);
     function count(options) {
