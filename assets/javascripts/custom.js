@@ -9,7 +9,7 @@ $(document).ready(function() {
   }, 1000);
 
   $("#typed").typed({
-    strings: ["Bay Area Native. React Native.", "Visionary Web Developer.", "Aspiring Full Stack.", "Welcome!"],
+    strings: ["Aspiring Full Stack.", "Bay Area Native.", "Visionary Web Developer.", "Welcome!"],
     typeSpeed: 30,
     startDelay: 0,
     backSpeed: 30,
