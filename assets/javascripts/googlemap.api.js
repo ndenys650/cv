@@ -21,5 +21,3 @@ google.maps = google.maps || {};
   var loadScriptTime = (new Date).getTime();
   getScript("https://maps.gstatic.com/maps-api-v3/api/js/18/6/main.js");
 })();
-
-

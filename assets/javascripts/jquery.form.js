@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
 		$('#notification').hide();
 
 		$('#submit')
-		.attr('enabled','enabled');
+		.attr('disabled','disabled');
 
 		$.post(action, {
 			name: $('#name').val(),
