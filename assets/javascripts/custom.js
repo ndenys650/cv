@@ -6,7 +6,7 @@ $(document).ready(function() {
   $(".preloader").addClass('animated fadeOut');
   setTimeout(function(){
     $(".preloader").addClass('loaded');
-  }, 1000);
+  }, 9000);
 
   $("#typed").typed({
     strings: ["Aspiring Full Stack.", "Bay Area Native.", "Visionary Web App Developer.", "Welcome!"],
