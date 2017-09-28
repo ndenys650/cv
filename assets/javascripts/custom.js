@@ -11,10 +11,10 @@ $(document).ready(function() {
 
   $("#typed").typed({
     strings: ["Aspiring Full Stack.", "Bay Area Native.", "Visionary Web App Developer.", "Welcome!"],
-    typeSpeed: 30,
-    startDelay: 0,
+    typeSpeed: 50,
+    startDelay: 1300,
     backSpeed: 30,
-    backDelay: 3000,
+    backDelay: 1700,
     loop: true,
     loopCount: false,
     showCursor: true,
