@@ -639,6 +639,7 @@
     </section>
 
     <!-- JavaScripts -->
+
     <script src="assets/javascripts/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="assets/javascripts/bootstrap.min.js"></script>
@@ -656,5 +657,16 @@
     <script src="assets/javascripts/custom.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7_q_Bj9WGSshFimmEK4KTWu9fpkaQNIQ&callback=initMap"
       type="text/javascript"></script>
+
+    <script type="text/javascript">
+    $(document).ready( function() { 
+          
+      $('.preloader').delay(800).fadeOut('slow'); // will fade out the white DIV that covers the website.
+      // $(".preloader").addClass('animated fadeOut');
+      // setTimeout(function(){
+      //   $(".preloader").addClass('loaded');
+      // }, 1000);
+    });
+   </script>
   </body>
 </html>

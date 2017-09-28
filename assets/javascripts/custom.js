@@ -3,10 +3,11 @@ $(document).ready(function() {
   "use strict";
 
   // -------------- Preloader -------------- 
-  $(".preloader").addClass('animated fadeOut');
-  setTimeout(function(){
-    $(".preloader").delay(350).addClass('loaded');
-  }, 9000);
+  // $('.preloader').delay(500).fadeOut('slow');
+  // $(".preloader").addClass('animated fadeOut');
+  // setTimeout(function(){
+  //   $(".preloader").addClass('loaded');
+  // }, 1000);
 
   $("#typed").typed({
     strings: ["Aspiring Full Stack.", "Bay Area Native.", "Visionary Web App Developer.", "Welcome!"],
