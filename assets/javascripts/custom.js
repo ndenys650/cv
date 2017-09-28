@@ -5,7 +5,7 @@ $(document).ready(function() {
   // -------------- Preloader -------------- 
   $(".preloader").addClass('animated fadeOut');
   setTimeout(function(){
-    $(".preloader").addClass('loaded');
+    $(".preloader").delay(350).addClass('loaded');
   }, 9000);
 
   $("#typed").typed({
