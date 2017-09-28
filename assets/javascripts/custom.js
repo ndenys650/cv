@@ -3,6 +3,11 @@ $(document).ready(function() {
   "use strict";
 
   // -------------- Preloader -------------- 
+  $('.preloader').delay(800).fadeOut('slow'); // will fade out the white DIV that covers the website.
+  // $(".preloader").delay(1000).addClass('animated fadeOut');
+  setTimeout(function(){
+    $(".preloader").delay(1000).addClass('loaded');
+  }, 1000);
   // $('.preloader').delay(500).fadeOut('slow');
   // $(".preloader").addClass('animated fadeOut');
   // setTimeout(function(){
