@@ -1,18 +1,25 @@
 $(document).ready(function() {
 
+  // $('.preloader').delay(800).fadeOut('slow'); // will fade out the white DIV that covers the website.
+  // // $(".preloader").delay(1000).addClass('animated fadeOut');
+  // setTimeout(function(){
+  //   $(".preloader").delay(1000).addClass('loaded');
+  // }, 1000);
+
+
   "use strict";
 
   // -------------- Preloader -------------- 
-  $('.preloader').delay(800).fadeOut('slow'); // will fade out the white DIV that covers the website.
-  // $(".preloader").delay(1000).addClass('animated fadeOut');
-  setTimeout(function(){
-    $(".preloader").delay(1000).addClass('loaded');
-  }, 1000);
-  // $('.preloader').delay(500).fadeOut('slow');
-  // $(".preloader").addClass('animated fadeOut');
+  // $('.preloader').delay(800).fadeOut('slow'); // will fade out the white DIV that covers the website.
+  // // $(".preloader").delay(1000).addClass('animated fadeOut');
   // setTimeout(function(){
-  //   $(".preloader").addClass('loaded');
+  //   $(".preloader").delay(1000).addClass('loaded');
   // }, 1000);
+  // $('.preloader').delay(500).fadeOut('slow');
+  $(".preloader").addClass('animated fadeOut');
+  setTimeout(function(){
+    $(".preloader").addClass('loaded');
+  }, 1000);
 
   $("#typed").typed({
     strings: ["Aspiring Full Stack.", "Bay Area Native.", "Visionary Web App Developer.", "Welcome!"],
