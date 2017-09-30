@@ -5,24 +5,20 @@
 /* 01 - Global Elements
 /* 02 - Navbar Elements
 /* 03 - Banner Elements
-/* 05 - About Elements
-/* 06 - Testimonial Elements
-/* 07 - Counter Elements
-/* 08 - Portfolio Elements
-/* 09 - Why Me Elements
-/* 10 - Education & Employment Elements
-/* 11 - Pricing Elements
-/* 12 - Twitter Feed Elements
-/* 13 - Journal Elements
-/* 14 - Clients Elements
-/* 15 - Map Elements
-/* 16 - Contact Elements
-/* 17 - Footer Elements
-/* 18 - Portfolio List Elements
-/* 19 - Portfolio Single Elements
-/* 20 - Journal List Elements
-/* 21 - Journal Single Elements
-/* 22 - Responsive Settings
+/* 04 - About Elements
+/* 05 - Testimonial Elements
+/* 06 - Counter Elements
+/* 07 - Portfolio Elements
+/* 08 - Why Me Elements
+/* 09 - Education & Employment Elements
+/* 10 - Twitter Feed Elements
+/* 11 - Certification Elements
+/* 12 - Map Elements
+/* 13 - Contact Elements
+/* 14 - Footer Elements
+/* 15 - Portfolio List Elements
+/* 16 - Portfolio Single Elements
+/* 17 - Responsive Settings
 /*==========================================*/
 /*==========================================*/
 /*       01 - Global Elements
@@ -374,7 +370,7 @@ a:hover {
   color: #00afd1;
 }
 /*==========================================*/
-/*       03 - Banner Elements
+/*       02 - Banner Elements
 /*==========================================*/
 .banner {
   height: 100%;
@@ -539,7 +535,7 @@ a:hover {
   color: #ffffff;
 }
 /*==========================================*/
-/*         05 - About Elements
+/*         03 - About Elements
 /*==========================================*/
 .about {
   padding: 80px 0px;
@@ -685,7 +681,7 @@ a:hover {
   margin-right: 5px;
 }
 /*==========================================*/
-/*        06 - Testimonial Elements
+/*        04 - Testimonial Elements
 /*==========================================*/
 .testimonial {
   background-size: cover;
@@ -812,7 +808,7 @@ a:hover {
   -ms-transform: rotate(-45deg);
 }
 /*==========================================*/
-/*        07 - Counter Elements
+/*        05 - Counter Elements
 /*==========================================*/
 .counter {
   background-size: cover;
@@ -869,7 +865,7 @@ a:hover {
   letter-spacing: 3px;
 }
 /*==========================================*/
-/*        08 - Portfolio Elements
+/*        06 - Portfolio Elements
 /*==========================================*/
 .portfolio {
   padding: 80px 0px 60px;
@@ -1083,7 +1079,7 @@ a:hover {
   font-family: "lato", sans-serif;
 }
 /*==========================================*/
-/*        09 - Why Me Elements
+/*        07 - Why Me Elements
 /*==========================================*/
 .why-me {
   padding: 80px 0px;
@@ -1150,17 +1146,19 @@ a:hover {
   text-align: center;
 }
 /*==========================================*/
-/*    10 - Education & Employment Elements
+/*    08 - Education & Employment Elements
 /*==========================================*/
 .education .title,
 .employment .title {
   padding: 40px 0px;
   border-top: 2px solid #eee;
   border-bottom: 2px solid #eee;
+  background-color: grey;
 }
 .education .title h1,
 .employment .title h1 {
   margin: 0px;
+  color: white;
 }
 .timeline-container {
   width: 700px;
@@ -1270,303 +1268,9 @@ a:hover {
   -o-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
 }
+
 /*==========================================*/
-/*        12 - Pricing Elements
-/*==========================================*/
-.pricing {
-  padding: 80px 0px;
-  background: #eee;
-}
-.pricing .description {
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
-  padding: 20px 0px 80px;
-  line-height: 25px;
-}
-.pricing .pricing-table {
-  background: #ffffff;
-  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  margin-top: 15px;
-  text-align: center;
-}
-.pricing .pricing-table.active {
-  margin-top: 0px;
-}
-.pricing .pricing-table.active .price {
-  background: #555555;
-  color: #ffffff;
-}
-.pricing .pricing-table.active .price h3 {
-  color: #ffffff;
-}
-.pricing .pricing-table.active .price span {
-  color: #ffffff;
-}
-.pricing .pricing-table .price {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  font-size: 14px;
-  margin-top: -50px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  color: #ffffff;
-  font-family: "Oswald", helvetica, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-.pricing .pricing-table .price h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-weight: 400;
-  font-family: 'Oswald', sans-serif;
-  text-transform: inherit;
-  letter-spacing: 0px;
-  margin-bottom: 3px;
-  font-size: 18px;
-}
-.pricing .pricing-table .price .pricetext {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  margin-top: 25px;
-}
-.pricing .pricing-table .list {
-  padding: 10px 0px;
-  text-align: center;
-}
-.pricing .pricing-table .list ul {
-  list-style: none;
-  text-align: center;
-  padding-left: 0px;
-}
-.pricing .pricing-table .list ul li {
-  padding: 7px 0px;
-}
-.pricing .pricing-table .list .def-btn {
-  margin: 15px 0px;
-  border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-}
-.pricing .pricing-table .list .def-btn:hover {
-  color: #ffffff;
-}
-/*==========================================*/
-/*        12 - Twitter Feed Elements
-/*==========================================*/
-.twitter-feed {
-  position: relative;
-  text-align: center;
-}
-.twitter-feed .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: url("../../images/noise2.png");
-}
-.twitter-feed .logo-container {
-  padding: 80px 0px 0px;
-}
-.twitter-feed .logo {
-  font-size: 55px;
-  text-align: center;
-  position: relative;
-  display: inline-block;
-  z-index: 3;
-  width: 80px;
-  height: 80px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  border: 1px solid #ffffff;
-  margin-bottom: 20px;
-}
-.twitter-feed .logo i {
-  color: #ffffff;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-}
-.twitter-feed .carousel {
-  padding: 0px 0px 80px;
-}
-.twitter-feed .tweet {
-  margin: 0 auto;
-  padding: 20px 0px;
-  width: 70%;
-  text-align: center;
-  font-size: 22px;
-  font-style: italic;
-  color: #ffffff;
-}
-.twitter-feed .time {
-  font-size: 16px;
-  text-align: center;
-  color: #ffffff;
-}
-.twitter-feed .time a {
-  font-weight: 600;
-  color: #ffffff;
-}
-/*==========================================*/
-/*        13 - Journal Elements
-/*==========================================*/
-.journal {
-  padding: 80px 0px 60px;
-  border-bottom: 2px solid #eee;
-}
-.journal .description {
-  padding-top: 20px;
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
-  padding-bottom: 50px;
-  line-height: 25px;
-}
-.journal #masonry-container {
-  margin-bottom: 10px;
-}
-.journal .journal-content {
-  background: #ffffff;
-  margin-bottom: 40px;
-  position: relative;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-.journal .journal-content .media {
-  overflow: hidden;
-  position: relative;
-  padding: 0px;
-  border-top-left-radius: 5px;
-  -webkit-border-top-left-radius: 5px;
-  -moz-border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -moz-border-top-right-radius: 5px;
-}
-.journal .journal-content .media img {
-  width: 100%;
-}
-.journal .journal-content .media .video-wrapper {
-  overflow: hidden;
-  position: relative;
-  float: left;
-  display: inline-block;
-  width: 100%;
-  min-height: 200px;
-  margin-bottom: -15px;
-}
-.journal .journal-content .media video,
-.journal .journal-content .media audio {
-  width: 100%;
-  display: inline-block;
-  margin-bottom: -15px;
-}
-.journal .journal-content .media video {
-  position: absolute;
-  height: 100%;
-}
-.journal .journal-content .media .quote {
-  padding: 15px 0px 20px;
-  margin-bottom: 0px;
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-align: center;
-}
-.journal .journal-content .detail {
-  padding: 15px;
-}
-.journal .journal-content .detail .category-wrap {
-  display: block;
-  margin-top: -35px;
-  text-align: center;
-}
-.journal .journal-content .detail .category-wrap .category {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  margin: 0 auto;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-}
-.journal .journal-content .detail .category-wrap .category i {
-  color: #ffffff;
-  font-size: 16px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  margin: 6px;
-}
-.journal .journal-content .detail .title h3 {
-  margin-top: 20px;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #333333;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  text-transform: inherit;
-  font-family: "Oswald", helvetica, sans-serif;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-.journal .journal-content .detail .info {
-  margin-bottom: 10px;
-  font-size: 12px;
-}
-.journal .journal-content .detail .info i {
-  margin-left: 10px;
-  margin-right: 5px;
-  margin-top: 5px;
-  color: #333333;
-  font-size: 16px;
-  vertical-align: sub;
-}
-.journal .journal-content .detail .info i:first-child {
-  margin-left: 0px;
-}
-.journal .journal-content .detail .info a {
-  color: #333333;
-}
-.journal .journal-content .detail .text {
-  line-height: 25px;
-  margin-bottom: 15px;
-}
-.journal .journal-content .detail .post-date {
-  border-top: 1px solid #eeeeee;
-  padding-top: 10px;
-  margin-top: 10px;
-  font-size: 12px;
-}
-.journal .show-more a {
-  background: #f0f0f0;
-}
-/*==========================================*/
-/*        14 - Clients Elements
+/*        09 - Certification Elements
 /*==========================================*/
 .clients {
   padding: 80px 0px;
@@ -1605,7 +1309,7 @@ a:hover {
   -moz-opacity: 1;
 }
 /*==========================================*/
-/*        15 - Map Elements
+/*        10 - Map Elements
 /*==========================================*/
 .map .map-title {
   background: #00afd1;
@@ -1623,7 +1327,7 @@ a:hover {
   border-bottom: 1px solid #dddddd;
 }
 /*==========================================*/
-/*        16 - Contact Elements
+/*        11 - Contact Elements
 /*==========================================*/
 .contact {
   padding: 80px 0px;
@@ -1710,7 +1414,7 @@ a:hover {
   color: #ffffff;
 }
 /*==========================================*/
-/*       17 - Footer Elements
+/*       12 - Footer Elements
 /*==========================================*/
 .footer {
   text-align: center;
@@ -1776,7 +1480,7 @@ a:hover {
   color: #ffffff;
 }
 /*==========================================*/
-/*       18 - Portfolio list Elements
+/*       13 - Portfolio list Elements
 /*==========================================*/
 .portfolio-list {
   padding: 0px 0px 0px;
@@ -1798,7 +1502,7 @@ a:hover {
   padding-bottom: 40px;
 }
 /*==========================================*/
-/*       19 - Portfolio Single Elements
+/*       14 - Portfolio Single Elements
 /*==========================================*/
 .portfolio-single .portfolio-category {
   display: block;
@@ -2010,532 +1714,7 @@ a:hover {
   margin-left: 30px;
 }
 /*==========================================*/
-/*       20 - Journal List Elements
-/*==========================================*/
-.journal-list .title {
-  padding: 40px 0px;
-  background: #ffffff;
-}
-.journal-list .title h1 {
-  margin: 0px;
-}
-.journal-list .title.bottom-shape:before {
-  background: #ffffff;
-}
-.journal-list .top-search {
-  margin: 0px 0px 40px;
-}
-.journal-list .top-search .search-wrap {
-  width: 100%;
-}
-.journal-list .top-search .search-wrap input {
-  padding: 10px;
-  outline: none;
-  box-shadow: none;
-  height: auto;
-  border-width: 1px;
-  position: relative;
-  width: 100%;
-  border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-color: #eee;
-}
-.journal-list .top-search .search-wrap .search-icon {
-  border: 0px;
-  position: absolute;
-  right: 30px;
-  top: 10px;
-}
-.journal-list .top-search .search-wrap .search-icon i {
-  font-size: 18px;
-}
-.journal-list .container-medium {
-  padding: 80px 0px 0px;
-}
-.journal-list #masonry-container {
-  float: left;
-  width: 100%;
-}
-.journal-list .pagination-wrap {
-  padding: 0px 0px 60px;
-}
-.journal-list .journal-content {
-  background: #ffffff;
-  margin-bottom: 40px;
-  position: relative;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-.journal-list .journal-content .media {
-  overflow: hidden;
-  position: relative;
-  padding: 0px;
-  border-top-left-radius: 5px;
-  -webkit-border-top-left-radius: 5px;
-  -moz-border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -moz-border-top-right-radius: 5px;
-}
-.journal-list .journal-content .media img {
-  width: 100%;
-}
-.journal-list .journal-content .media .video-wrapper {
-  overflow: hidden;
-  position: relative;
-  float: left;
-  display: inline-block;
-  width: 100%;
-  min-height: 200px;
-  margin-bottom: -15px;
-}
-.journal-list .journal-content .media video,
-.journal-list .journal-content .media audio {
-  width: 100%;
-  display: inline-block;
-  margin-bottom: -15px;
-}
-.journal-list .journal-content .media video {
-  position: absolute;
-  height: 100%;
-}
-.journal-list .journal-content .media .quote {
-  padding: 15px;
-  margin-bottom: -10px;
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-align: center;
-}
-.journal-list .journal-content .detail {
-  padding: 15px;
-}
-.journal-list .journal-content .detail .category-wrap {
-  display: block;
-  margin-top: -35px;
-  text-align: center;
-}
-.journal-list .journal-content .detail .category-wrap .category {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  margin: 0 auto;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-}
-.journal-list .journal-content .detail .category-wrap .category i {
-  color: #ffffff;
-  font-size: 16px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  margin: 6px;
-}
-.journal-list .journal-content .detail .title {
-  padding: 0px;
-}
-.journal-list .journal-content .detail .title h3 {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #333333;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  letter-spacing: 1px;
-}
-.journal-list .journal-content .detail .info {
-  margin-bottom: 10px;
-  font-size: 12px;
-}
-.journal-list .journal-content .detail .info i {
-  margin-left: 10px;
-  margin-right: 5px;
-  margin-top: 5px;
-  color: #333333;
-  font-size: 16px;
-  vertical-align: sub;
-}
-.journal-list .journal-content .detail .info i:first-child {
-  margin-left: 0px;
-}
-.journal-list .journal-content .detail .info a {
-  color: #333333;
-}
-.journal-list .journal-content .detail .text {
-  line-height: 25px;
-  margin-bottom: 15px;
-}
-.journal-list .journal-content .detail .post-date {
-  border-top: 1px solid #eeeeee;
-  padding-top: 10px;
-  margin-top: 10px;
-  font-size: 12px;
-}
-/*==========================================*/
-/*       21 - Journal Single Elements
-/*==========================================*/
-.journal-single .title {
-  padding: 40px 0px;
-}
-.journal-single .title h1 {
-  margin: 0px;
-}
-.journal-wrap {
-  padding: 40px 0px;
-}
-.journal-wrap .title {
-  padding: 0px;
-}
-.journal-detail#masonry-container {
-  padding: 0px;
-  margin: 0px 0px 40px;
-}
-.journal-detail .post-content {
-  position: relative;
-  margin: 40px 0px 0px;
-}
-.journal-detail .post-content .post-media img {
-  width: 100%;
-}
-.journal-detail .post-content .post-inner .post-head .title h2 {
-  font-family: "oswald", helvetica, sans-serif;
-  font-weight: 300;
-  margin-bottom: 5px;
-  font-size: 24px;
-  margin: 30px 0px 5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-}
-.journal-detail .post-content .post-inner .post-head .info {
-  margin-bottom: 10px;
-  margin-top: 10px;
-  font-size: 14px;
-}
-.journal-detail .post-content .post-inner .post-head .info i {
-  margin-left: 10px;
-  margin-right: 5px;
-  margin-top: 5px;
-  color: #333333;
-  font-size: 16px;
-  vertical-align: sub;
-}
-.journal-detail .post-content .post-inner .post-head .info i:first-child {
-  margin-left: 0px;
-}
-.journal-detail .post-content .post-inner .post-head .info a {
-  font-weight: 400;
-}
-.journal-detail .post-content .post-inner .post-text {
-  margin: 10px 0px 20px;
-}
-.journal-detail .post-content .post-inner .post-text p {
-  line-height: 2em;
-}
-.journal-detail .post-single h1,
-.journal-detail .post-single h2,
-.journal-detail .post-single h3,
-.journal-detail .post-single h4 {
-  font-family: "Oswald", helvetica, sans-serif;
-  font-weight: 300;
-}
-.journal-detail .post-single p {
-  font-size: 14px;
-}
-.journal-detail .post-single p .img-align-right {
-  margin-left: 15px;
-}
-.journal-detail .post-single p .img-align-left {
-  margin-right: 15px;
-}
-.journal-detail .post-single blockquote {
-  font-size: 14px;
-  line-height: 22px;
-  border-color: #eee;
-}
-.journal-detail .post-single blockquote small {
-  padding-top: 10px;
-  font-size: 12px;
-}
-.journal-detail .post-single .comment {
-  margin-top: 40px;
-}
-.journal-detail .post-single .comment .title {
-  margin-bottom: 5px;
-}
-.journal-detail .post-single .comment .title h2 {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 26px;
-  border-top: 1px solid #eee;
-  padding-top: 30px;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 2px;
-  color: #555555;
-}
-.journal-detail .post-single .comment .comment-list {
-  padding-left: 0px;
-}
-.journal-detail .post-single .comment .comment-list:last-child {
-  border-bottom: 0px;
-}
-.journal-detail .post-single .comment .comment-list .comment-container {
-  padding: 20px 0px;
-  overflow: hidden;
-  display: block;
-}
-.journal-detail .post-single .comment .comment-list .comment-container a {
-  font-family: "lato", helvetica, sans-serif;
-  font-weight: 400;
-}
-.journal-detail .post-single .comment .comment-list .comment-container .avatar {
-  float: left;
-  width: 75px;
-  height: 75px;
-}
-.journal-detail .post-single .comment .comment-list .comment-container .avatar img {
-  width: 100%;
-}
-.journal-detail .post-single .comment .comment-list .comment-container .name {
-  display: block;
-  margin-bottom: 10px;
-  margin-left: 105px;
-  margin-top: 0px;
-  font-family: "lato", helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-.journal-detail .post-single .comment .comment-list .comment-container .name span {
-  display: block;
-  float: right;
-  font-size: 12px;
-  text-transform: inherit;
-}
-.journal-detail .post-single .comment .comment-list .comment-container .text {
-  margin-left: 105px;
-  font-size: 14px;
-  line-height: 25px;
-}
-.journal-detail .post-single .comment .comment-list .comment-container .reply {
-  margin-left: 105px;
-  margin-top: 10px;
-  font-family: "lato", helvetica, sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.journal-detail .post-single .comment .comment-list.indent-two .comment-container {
-  padding-left: 30px;
-}
-.journal-detail .post-single .respond {
-  margin: 20px 0px 40px;
-}
-.journal-detail .post-single .respond .title {
-  margin-bottom: 5px;
-}
-.journal-detail .post-single .respond .title h2 {
-  display: block;
-  font-size: 26px;
-  padding-top: 30px;
-  margin-bottom: 20px;
-  border-top: 1px solid #eee;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 2px;
-  color: #555555;
-}
-.journal-detail .post-single .respond .row .form-control {
-  border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-color: #ccc;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-}
-.journal-detail .post-single .respond .row .form-control:focus {
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-}
-.journal-detail .post-single .respond .row label {
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: 300;
-}
-.journal-detail .post-single .respond .row textarea {
-  height: 200px;
-}
-.journal-detail .post-single .respond .row .def-btn {
-  background: #444;
-  border: 0px;
-  margin-top: 20px;
-  font-family: "Lato", helvetica, sans-serif;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  text-transform: uppercase;
-  color: #ffffff;
-  letter-spacing: 1px;
-}
-.journal-detail .post-single .respond .row .def-btn:hover {
-  color: #ffffff;
-}
-.journal-detail .pagination {
-  float: right;
-  margin-top: 30px;
-}
-.journal-sidebar {
-  margin: 40px 0px 0px;
-}
-.journal-sidebar .title {
-  margin: 30px 0px 10px;
-  position: relative;
-  padding-left: 45px;
-}
-.journal-sidebar .title .shape {
-  position: absolute;
-  left: 0;
-  width: 30px;
-  height: 30px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  display: inline-block;
-  text-align: center;
-}
-.journal-sidebar .title .shape i {
-  font-size: 18px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  display: block;
-  padding: 4px;
-  color: #ffffff;
-  line-height: 18px;
-}
-.journal-sidebar .title h3 {
-  font-size: 20px;
-  padding-top: 5px;
-  padding-bottom: 7px;
-  display: inline-block;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  line-height: 28px;
-}
-.journal-sidebar .content {
-  margin-bottom: 20px;
-}
-.journal-sidebar .content ul {
-  list-style: none;
-  padding-left: 0px;
-}
-.journal-sidebar .content ul li {
-  padding: 8px 0px;
-  border-bottom: 1px solid #eee;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  cursor: pointer;
-}
-.journal-sidebar .content ul li a {
-  color: #333333;
-}
-.journal-sidebar .search-post .title {
-  margin: 0px 0px 20px;
-}
-.journal-sidebar .search-post .title h3 {
-  margin-top: 0px;
-}
-.journal-sidebar .search-post .content .search-wrap {
-  width: 100%;
-  position: relative;
-}
-.journal-sidebar .search-post .content .search-wrap input {
-  padding: 10px;
-  outline: none;
-  box-shadow: none;
-  height: auto;
-  border-width: 1px;
-  width: 100%;
-  border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-color: #ccc;
-}
-.journal-sidebar .search-post .content .search-wrap .search-icon {
-  border: 0px;
-  position: absolute;
-  right: 15px;
-  top: 8px;
-}
-.journal-sidebar .search-post .content .search-wrap .search-icon i {
-  color: #333333;
-  font-size: 18px;
-}
-.journal-sidebar .post-categories .content ul li span,
-.journal-sidebar .post-archives .content ul li span {
-  float: right;
-}
-.journal-sidebar .recent-post .content ul li a,
-.journal-sidebar .recent-post .content ul li span {
-  display: block;
-}
-.journal-sidebar .recent-post .content ul li span {
-  font-size: 12px;
-}
-.journal-sidebar .recent-post .content ul li:hover a {
-  color: #333333;
-}
-.journal-sidebar .post-tags .title {
-  margin-bottom: 10px;
-}
-.journal-sidebar .post-tags .content {
-  margin-top: 20px;
-}
-.journal-sidebar .post-tags .tag-label {
-  padding: 7px 10px;
-  display: inline-block;
-  margin: 0px 5px 10px 0px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border: 2px solid #eee;
-  color: #333333;
-}
-.journal-sidebar .post-tags .tag-label:hover {
-  color: #ffffff;
-}
-/*==========================================*/
-/*       22 - Responsive Settings
+/*       15 - Responsive Settings
 /*==========================================*/
 @media (max-width: 1200px) {
   .about .photo.slick-current img {
