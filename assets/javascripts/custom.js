@@ -22,7 +22,7 @@ $(document).ready(function() {
   }, 1000);
 
   $("#typed").typed({
-    strings: ["Aspiring Full Stack.", "Bay Area Native.", "Visionary Web App Developer.", "Welcome!"],
+    strings: ["Full Stack Developer.", "Bay Area Native.", "Visionary Designer.", "Welcome!"],
     typeSpeed: 50,
     startDelay: 1300,
     backSpeed: 30,
