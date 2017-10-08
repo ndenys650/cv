@@ -1,21 +1,9 @@
 $(document).ready(function() {
 
-  // $('.preloader').delay(800).fadeOut('slow'); // will fade out the white DIV that covers the website.
-  // // $(".preloader").delay(1000).addClass('animated fadeOut');
-  // setTimeout(function(){
-  //   $(".preloader").delay(1000).addClass('loaded');
-  // }, 1000);
-
-
   "use strict";
 
   // -------------- Preloader -------------- 
-  // $('.preloader').delay(800).fadeOut('slow'); // will fade out the white DIV that covers the website.
-  // // $(".preloader").delay(1000).addClass('animated fadeOut');
-  // setTimeout(function(){
-  //   $(".preloader").delay(1000).addClass('loaded');
-  // }, 1000);
-  // $('.preloader').delay(500).fadeOut('slow');
+
   $(".preloader").addClass('animated fadeOut');
   setTimeout(function(){
     $(".preloader").addClass('loaded');
@@ -64,9 +52,8 @@ $(document).ready(function() {
   // -------------- Parallax -------------- 
   
   if( window_width > 992 ){
-    $('.testimonial').parallax("50%", 0.1);
+    $('.testimonial').parallax('50%', 0.1);
     $('.counter').parallax("50%", 0.1);
-    $('.twitter-feed').parallax("50%", 0.1);
   }
 
   // -------------- Scroll to content animation -------------- 
