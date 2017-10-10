@@ -595,13 +595,13 @@ a:hover {
 }
 .about .photo {
   text-align: center;
-  margin: 75px 0px 75px;
+  margin: 75px 0px 40px;
 }
 .about .photo.slick-current {
   margin: 50px 0px 40px;
 }
 .about .photo.slick-current img {
-  margin-left: -25px;
+  margin: 0 -10%;
   width: 300px;
   height: 300px;
   opacity: 1;
@@ -1745,12 +1745,6 @@ a:hover {
   }
 }
 @media (max-width: 991px) {
-  .pricing {
-    padding: 80px 0px 40px;
-  }
-  .pricing .pricing-table {
-    margin-bottom: 80px;
-  }
   .about .center {
     width: 80%;
     margin: 0 auto;
@@ -1913,10 +1907,6 @@ a:hover {
   .about .photo img {
     width: 100px;
     height: 100px;
-  }
-  .journal-detail .post-single .comment .comment-list .comment-container .name span {
-    float: none;
-    padding-top: 5px;
   }
   .map .map-title {
     padding: 30px 0px;
