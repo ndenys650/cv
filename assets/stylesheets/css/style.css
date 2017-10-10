@@ -601,7 +601,6 @@ a:hover {
   margin: 50px 0px 40px;
 }
 .about .photo.slick-current img {
-  margin: 0 -10%;
   width: 300px;
   height: 300px;
   opacity: 1;
@@ -1717,6 +1716,13 @@ a:hover {
 /*==========================================*/
 /*       15 - Responsive Settings
 /*==========================================*/
+
+@media (min-width: 1200px) {
+  .about .photo.slick-current img {
+    margin: 0 -10%;
+  }
+}
+
 @media (max-width: 1200px) {
   .about .photo.slick-current img {
     width: 200px;
