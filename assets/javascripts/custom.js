@@ -10,7 +10,7 @@ $(document).ready(function() {
   }, 1000);
 
   $("#typed").typed({
-    strings: ["Front End Developer.", "Bay Area Native.", "Visionary UX Designer.", "Welcome!"],
+    strings: ["Front-End Developer.", "Bay Area Native.", "Visionary UX Designer.", "Welcome!"],
     typeSpeed: 50,
     startDelay: 1300,
     backSpeed: 30,
