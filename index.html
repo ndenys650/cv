@@ -1,15 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108647015-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108647015-2');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Denys - Fully Responsive CV Website">
-    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="icon" href="assets/images/favicon.ico">
     <title>Nate Denys</title>
-
     <!-- Stylesheets -->
-
     <!-- Bootstrap -->
     <link href="assets/stylesheets/css/bootstrap/bootstrap.css" rel="stylesheet">
 
@@ -41,150 +51,114 @@
 
     <!-- Style Switcher -->
     <link href="assets/stylesheets/css/switcher/switcher.css" rel="stylesheet">
-    <link href="assets/stylesheets/css/colors/orange.css" id="switch_style" rel="stylesheet"/>
+    <link href="assets/stylesheets/css/colors/orange.css" id="switch_style" rel="stylesheet" />
 
-  </head>
+</head>
 
-  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="80" class="slideshowbody">
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="80" class="slideshowbody">
     <div class="preloader">
-      <div class="image-container">
-        <div class="image"><img src="assets/images/preloader.gif" alt=""></div>
-      </div>      
+        <div class="image-container">
+            <div class="image"><img src="assets/images/preloader.gif" alt=""></div>
+        </div>
     </div>
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://ndenys650.github.io/cv/"></a>
+                <a class="navbar-brand" href="https://ndenys650.github.io/cv/"></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" target="_blank">Home</a></li>
+                    <li><a href="#about" target="_blank">About Me</a></li>
+                    <li><a href="#portfolio" target="_blank">Portfolio</a></li>
+                    <li><a href="#education" target="_blank">Education</a></li>
+                    <li><a href="#employment" target="_blank">Work Experience</a></li>
+                    <li><a href="#contact" target="_blank">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#employment">Work Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
 
     <!-- Banner Section Begin -->
     <section class="banner" id="home" style="background: url(assets/images/heros/hero1.jpg) center; background-size: cover;">
-<!--       <div class="overlay"></div>
- -->      <div class="banner-content">
-        <div class="container">
-          <div class="col-md-12">
-            <div class="subtitle">
-              <p>I Am Nate Denys</p>
+        <div class="banner-content">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="subtitle">
+                        <p>I Am Nate Denys</p>
+                    </div>
+                    <div class="title">
+                        <h1 id="typed"></h1>
+                    </div>
+                    <div class="buttons">
+                        <a href="#about" target="_blank" class="def-btn">More About Me</a>
+                    </div>
+                    <div class="buttons">
+                        <a href="./resume.pdf" target="_blank" class="def-btn">Download Resume</a>
+                    </div>
+                </div>
             </div>
-            <div class="title">
-              <h1 id="typed"></h1>
-            </div>
-            <div class="buttons">
-              <a href="#about" class="def-btn">More About Me</a>
-            </div>
-            <div class="buttons">
-              <a href="./resume.pdf" class="def-btn">Download Resume</a>
-            </div>
-          </div>
-        </div>
 
-        <div class="scroll-info">
-          <a href="#about">
-            <div class="shape">
-              <i class="fa fa-angle-down"></i>
+            <div class="scroll-info">
+                <a href="#about">
+                    <div class="shape">
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </a>
             </div>
-          </a>
         </div>
-      </div>
     </section>
 
     <!-- Beginning of About Section -->
     <section class="about" id="about">
-      <div class="title section-title text-center">
-        <div class="title-icon-container">
-          <div class="title-icon"><i class="pe-7s-id pe-2x"></i></div>
-        </div>
-        <h1>Nate Denys</h1>
-        <h2>Website & Application Front End Developer</h2>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <div class="center">
-              <div class="img-relative photo">
-                <img alt="My Photo" src="assets/images/profile_pics/me8.jpg">
-              </div>
-              <div class="img-relative photo">
-                <img alt="My Photo" src="assets/images/profile_pics/me9.jpg">
-              </div>
-              <div class="img-relative photo">
-                <img alt="My Photo" src="assets/images/profile_pics/me5.jpg">
-              </div>
-              <div class="img-relative photo">
-                <img alt="My Photo" src="assets/images/profile_pics/me11.jpg">
-              </div>
-              <div class="img-relative photo">
-                <img alt="My Photo" src="assets/images/profile_pics/me10.jpg">
-              </div>
+        <div class="title section-title text-center">
+            <div class="title-icon-container">
+                <div class="title-icon"><i class="pe-7s-id pe-2x"></i></div>
             </div>
+            <h1>Nate Denys</h1>
+            <h2>Website & Application Front End Developer</h2>
+        </div>
 
-            <div class="description">
-              <div class="text">
-                <p><strong>I'm young, reliable, and adaptable. A Business Economist turned JavaScript Developer, out to make a difference in the world through website and application development. You'll most likely find me planning out my pilot experience, playing my instruments, or analyzing PWA's on Github. As of late, I've been creating Front End Single Page Applications with the aspirations of being an Application UX Designer, as well as, understanding Full Stack application environments.<strong></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="center">
+                        <div class="img-relative photo">
+                            <img alt="My Photo" src="assets/images/profile_pics/me8.jpg">
+                        </div>
+                        <div class="img-relative photo">
+                            <img alt="My Photo" src="assets/images/profile_pics/me9.jpg">
+                        </div>
+                        <div class="img-relative photo">
+                            <img alt="My Photo" src="assets/images/profile_pics/me5.jpg">
+                        </div>
+                        <div class="img-relative photo">
+                            <img alt="My Photo" src="assets/images/profile_pics/me11.jpg">
+                        </div>
+                        <div class="img-relative photo">
+                            <img alt="My Photo" src="assets/images/profile_pics/me10.jpg">
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <div class="text">
+                            <p><strong>I'm reliable and adaptable. A Business Economist and Application Developer. You'll most likely find me planning out my pilot experience, playing my instruments, crafting React components, or analyzing PWA's on Github. Lately, I'm developing Single Page Applications, designing iOS 11 apps in Sketch, and understanding Full Stack application environments.<strong></p>
               </div>
             </div>
 
             <div class="more">
               <ul>
-                <li><a href="./resume.pdf"><i class="pe-7s-cloud-download pe-2x pe-va"></i>  Download Resume</a></li> 
+                <li><a target="_blank" href="./resume.pdf"><i class="pe-7s-cloud-download pe-2x pe-va"></i>  Download Resume</a></li> 
                 <li><a href="#contact"><i class="pe-7s-phone pe-2x pe-va"></i>Contact Me</a></li>
               </ul>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr>
-    <!-- Certificates Section Begin  -->
-    <section class="clients">
-      <div class="container">
-        <div class="title section-title text-center wow animated fadeIn">
-          <div class="title-icon-container">
-            <div class="title-icon"><i class="pe-7s-ribbon pe-2x pe-va"></i></div>
-          </div>
-          <h1>Certifications</h1>
-        </div>
-        <div class="description">
-          <p>Around my 9 to 5 and Codify Academy, I've completed extracurricular courses to continually improve my skills & portfolio.</p>
-        </div>
-        <div id="clients" class="clients-logo owl-theme wow animated fadeIn">
-          <div class="item">
-            <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-68AYLVAH.jpg"><img src="assets/images/certificates/cert1.jpg" alt="ModernReactRedux"></a>
-          </div>
-          <div class="item">
-            <a href="https://www.credential.net/ec72xf1h"><img src="assets/images/certificates/cert4.jpg" alt="Codecademy"></a>
-          </div>
-          <div class="item">
-            <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-NRZ6NJRE.jpg"><img src="assets/images/certificates/cert2.jpg" alt="ReactvsAngularvsVue"></a>
-          </div>
-          <div class="item">
-            <a href="https://www.datacamp.com/statement-of-accomplishment/course/4b214f0f3c10ccda10119e00d94ae426ab659020"><img src="assets/images/certificates/cert5.jpg" alt="DataCamp"></a>
-          </div>
-          <div class="item">
-            <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-XCRL65V6.jpg"><img src="assets/images/certificates/cert3.jpg" alt="TheWebDeveloperBootcamp"></a>
-          </div>
-          <div class="item">
-            <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-MKV4HSGO.jpg"><img src="assets/images/certificates/cert6.jpg" alt="IntrotoGit"></a>
           </div>
         </div>
       </div>
@@ -198,7 +172,7 @@
           <div class="col-sm-3">
             <div class="icon"><i class="pe-7s-clock pe-4x"></i></div>
             <h3 class="timer" data-to="642" data-speed="3000" data-from="0"></h3>        
-            <h4>Hours Studying</h4>
+            <h4>Hours Developing</h4>
           </div>
           <div class="col-sm-3">
             <div class="icon"><i class="pe-7s-coffee pe-4x"></i></div>
@@ -208,172 +182,18 @@
           <div class="col-sm-3">
             <div class="icon"><i class="pe-7s-folder pe-4x"></i></div>
             <h3 class="timer" data-to="93" data-speed="3000" data-from="0"></h3>
-            <h4>Projects</h4>
+            <h4>Starred Repos</h4>
           </div>
           <div class="col-sm-3">
             <div class="icon"><i class="pe-7s-upload"></i></div>
             <h3 class="timer" data-to="387" data-speed="3000" data-from="0"></h3>
-            <h4>Commits</h4>
+            <h4>Saved Bookmarks</h4>
           </div>
         </div>      
       </div>
     </section>
   
-    <!--Portfolio Section Begin -->
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <div class="title section-title text-center wow animated fadeIn">
-          <div class="title-icon-container">
-            <div class="title-icon"><i class="pe-7s-albums pe-2x pe-va"></i></div>
-          </div>
-          <h1>My Portfolio</h1>
-        </div>
-        <div class="description">
-          <p>After working with HTML and CSS, I turned my attention to focus solely on JavaScript. Once I grasped the fundamentals of JavaScript, I jumped into understanding the architectures of libraries and frameworks.</p>
-        </div>
-      </div>
 
-      <div class="container">
-        <div class="portfoliocontent">
-          
-          <div class="item col-sm-6 col-xs-12">
-            <a href="react.html">
-              <div class="content">
-                <div class="overlay valign-container">
-                  <div class="valign-container">
-                    <div class="text valign-content">
-                      <span class="project-name">React</span>
-                      <div class="separator-container">
-                        <div class="separator"><div class="shape"></div></div>
-                      </div>
-                      <span class="project-date">2017</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="image">
-                  <img src="assets/images/projects/react.jpg" alt="Portfolio image">
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="item col-sm-6 col-xs-12 webdesign">
-            <a href="js.html">
-              <div class="content">
-                <div class="overlay valign-container">
-                  <div class="valign-container">
-                    <div class="text valign-content">
-                      <span class="project-name">JavaScript</span>
-                      <div class="separator-container">
-                        <div class="separator"><div class="shape"></div></div>
-                      </div>
-                      <span class="project-date">2017</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="image">
-                  <img src="assets/images/projects/js.jpg" alt="Portfolio image">
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="item col-sm-6 col-xs-12 webdesign">
-            <a href="responsive.html">
-              <div class="content">
-                <div class="overlay valign-container">
-                  <div class="valign-container">
-                    <div class="text valign-content">
-                      <span class="project-name">Responsive</span>
-                      <div class="separator-container">
-                        <div class="separator"><div class="shape"></div></div>
-                      </div>
-                      <span class="project-date">2017</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="image">
-                  <img src="assets/images/projects/bootstrap.jpg" alt="Portfolio image">
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="item col-sm-6 col-xs-12 webdevelopment">
-            <a href="node.html">
-              <div class="content">
-                <div class="overlay">
-                  <div class="valign-container">
-                    <div class="text valign-content">
-                      <span class="project-name">Node</span>
-                      <div class="separator-container">
-                        <div class="separator"><div class="shape"></div></div>
-                      </div>
-                      <span class="project-date">2017</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="image">
-                  <img src="assets/images/projects/node.jpg" alt="Portfolio image">
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="col-md-12">
-          <div class="show-more text-center">
-            <a href="portfolio-list.html" class="def-btn">Show More</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonial Section Begin-->
-    <section class="testimonial text-center" id="testimonial" style="background: url(assets/images/banners/banner3.jpg) center; background-size: cover; background-attachment: fixed;">
-      <div class="overlay"></div>
-      <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
-        <div class="container">
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="photo">
-                <img src="assets/images/person1.png" alt="Testimonial">
-              </div>
-              <div class="text">
-                "Overall, Nate was a responsible and hard-working crew member. He took on more than was asked of him and did all this with a positive attitude and a full plate. I recommend Nate and believe he will be a valuable member of your team."
-              </div>
-              <div class="separator-container">
-                <div class="separator"><div class="shape"></div></div>
-              </div>
-              <div class="name">
-                <span class="textbold">Jon Martinez</span>, Captain @ Trader Joe's
-              </div>
-            </div>
-
-<!--             <div class="item">
-              <div class="photo">
-                <img src="assets/images/person2.jpg" alt="Testimonial">
-              </div>
-              <div class="text">
-                " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi   eleifend et consectetur adipiscing elit. "
-              </div>
-              <div class="separator-container">
-                <div class="separator"><div class="shape"></div></div>
-              </div>
-              <div class="name">
-                <span class="textbold">Steve Doe</span>, CEO of Kebon Kopi
-              </div>
-            </div> -->
-          </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#testimonial-carousel" role="button" data-slide="prev" data-wow-delay="1s">
-          <div class="control-circle left"><i class="fa fa-angle-left"></i></div>
-        </a>
-        <a class="right carousel-control" href="#testimonial-carousel" role="button" data-slide="next" data-wow-delay="1s">
-          <div class="control-circle right"><i class="fa fa-angle-right"></i></div>
-        </a>
-      </div>
-    </section>
 
     <!-- Why Choose Me Section Begin  -->
     <section class="why-me" id="why-me">
@@ -396,24 +216,24 @@
           </div>
           <div class="skillbars skills-centered">
             <div class="bar-container">
-              <p><i class="icon-pencil pi-icon-left"></i>HTML5 - CSS3 - SASS - LESS - Bootstrap - Flexbox</p>
-              <div class="meter wow animated fadeInLeft" style="width: 100%"></div>
+              <p><i class="icon-pencil pi-icon-left"></i>HTML5 - CSS3 - SASS - Bootstrap - Flexbox</p>
+              <div class="meter wow animated fadeInLeft" style="width: 95%"></div>
             </div>
             <div class="bar-container">
-              <p><i class="icon-pencil pi-icon-left"></i>JavaScript - TypeScript - ES6 - jQuery - React - Angular4</p>
-              <div class="meter wow animated fadeInLeft" style="width: 100%"></div>
+              <p><i class="icon-pencil pi-icon-left"></i>JavaScript - ES6 - jQuery - React</p>
+              <div class="meter wow animated fadeInLeft" style="width: 90%"></div>
             </div>
             <div class="bar-container">
-              <p><i class="icon-pencil pi-icon-left"></i>Express - MongoDB - Jasmine - JSON - API</p>
-              <div class="meter wow animated fadeInLeft" style="width: 100%"></div>
+              <p><i class="icon-pencil pi-icon-left"></i>Express - MongoDB - JSON - RESTful API's</p>
+              <div class="meter wow animated fadeInLeft" style="width: 80%"></div>
             </div>
             <div class="bar-container">
-              <p><i class="icon-pencil pi-icon-left"></i>Ember - Node - Git - Github</p>
-              <div class="meter wow animated fadeInLeft" style="width: 100%"></div>
+              <p><i class="icon-pencil pi-icon-left"></i>CRUD Routes - Node - Git - Github</p>
+              <div class="meter wow animated fadeInLeft" style="width: 85%"></div>
             </div>
             <div class="bar-container">
-              <p><i class="icon-pencil pi-icon-left"></i>UI/UX Design - Teaching - Googling - 50 WPM</p>
-              <div class="meter wow animated fadeInLeft" style="width: 100%"></div>
+              <p><i class="icon-pencil pi-icon-left"></i>UI/UX Design - Teaching - 50 WPM</p>
+              <div class="meter wow animated fadeInLeft" style="width: 95%"></div>
             </div>
           </div>
         </div>
@@ -441,18 +261,7 @@
               <div class="timeline-label wow animated fadeIn" data-wow-delay="0.2s">
                 <h3>Front-End Web Development</h3>
                 <span class="place textbold">Codify Academy</span>
-                <p>As I became more curious about web application development, I enrolled into a new educational program, pushing myself to learn more advanced concepts. Outside of my daily 9 to 5 job, I used this educational program to solidify my knowledge of HTML and CSS, root my skills in JS, and tapped into understanding different JS libraries and frameworks, primarily focusing on React and Angular4.</p>
-              </div>
-            </li>
-            <li>
-              <time class="timeline-year wow animated fadeIn" data-wow-delay="0.2s"><span>2017</span></time>
-              <div class="timeline-icon wow animated fadeIn" data-wow-delay="0.2s">
-                <i class="pe-7s-study pe-va"></i>
-              </div>
-              <div class="timeline-label wow animated fadeIn" data-wow-delay="0.2s">
-                <h3>HTML and CSS Certification</h3>
-                <span class="place textbold">Codecademy</span>
-                <p>After purchasing my first laptop, I quickly found myself researching different technologies and building my foundational knowledge of HTML and CSS. I knew which direction I wanted to go and began my journey to understand the key concepts in web development so that I can build on them later on.</p>
+                <p>As I became more curious about web application development, I enrolled into a new educational program, pushing myself to learn the more advanced concepts. Outside of my 9 to 5, I utilized this educational program to solidify my knowledge of HTML and CSS, root my skills in JS, and adapt to different JS libraries and frameworks, primarily focusing on React and Angular4.</p>
               </div>
             </li>
             <li>
@@ -474,10 +283,54 @@
               <div class="timeline-label wow animated fadeIn" data-wow-delay="0.2s">
                 <h3>BUILD</h3>
                 <span class="place textbold">Carlmont High School</span>
-                <p>I joined an after school program working with a small team to create and develop a small business of selling reusable bags. We went on to present our business plan in multiple competitions at local schools including Stanford University, where we won first place.</p>
+                <p>I joined an after school program working with a small team to create and develop a small business selling reusable bags. We went on to present our business plan in multiple competitions at local schools including Stanford University, where we won first place.</p>
               </div>
             </li>
           </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section Begin  -->
+    <section class="clients">
+      <div class="container">
+        <div class="title section-title text-center wow animated fadeIn">
+          <div class="title-icon-container">
+            <div class="title-icon"><i class="pe-7s-ribbon pe-2x pe-va"></i></div>
+          </div>
+          <h1>Certificates</h1>
+        </div>
+        <div class="description">
+          <p>Around my 9 to 5 and Codify Academy, I've completed extracurricular courses to continually improve my skills & portfolio.</p>
+        </div>
+        <div id="clients" class="clients-logo owl-theme wow animated fadeIn">
+          <div class="item">
+            <a target="_blank" href="https://udemy-certificate.s3.amazonaws.com/image/UC-N28NOVCT.jpg"><img src="assets/images/certificates/cert9.jpg" alt="SASS/SCSS"></a>
+          </div>
+          <div class="item">
+            <a target="_blank" href="https://udemy-certificate.s3.amazonaws.com/image/UC-68AYLVAH.jpg"><img src="assets/images/certificates/cert1.jpg" alt="ModernReactRedux"></a>
+          </div>
+          <div class="item">
+            <a target="_blank" href="https://www.credential.net/ec72xf1h"><img src="assets/images/certificates/cert4.jpg" alt="Codecademy"></a>
+          </div>
+          <div class="item">
+            <a target="_blank" href="https://udemy-certificate.s3.amazonaws.com/image/UC-NRZ6NJRE.jpg"><img src="assets/images/certificates/cert2.jpg" alt="ReactvsAngularvsVue"></a>
+          </div>
+          <div class="item">
+            <a target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/course/4b214f0f3c10ccda10119e00d94ae426ab659020"><img src="assets/images/certificates/cert5.jpg" alt="DataCamp"></a>
+          </div>
+          <div class="item">
+            <a target="_blank" href="https://udemy-certificate.s3.amazonaws.com/image/UC-XCRL65V6.jpg"><img src="assets/images/certificates/cert3.jpg" alt="TheWebDeveloperBootcamp"></a>
+          </div>
+          <div class="item">
+            <a target="_blank" href="https://udemy-certificate.s3.amazonaws.com/image/UC-MKV4HSGO.jpg"><img src="assets/images/certificates/cert6.jpg" alt="IntrotoGit"></a>
+          </div>
+          <div class="item">
+            <a target="_blank" href="https://udemy-certificate.s3.amazonaws.com/image/UC-Y0OQ8VC9.jpg"><img src="assets/images/certificates/cert7.jpg" alt="jQuery"></a>
+          </div>
+          <div class="item">
+            <a target="_blank" href="https://udemy-certificate.s3.amazonaws.com/image/UC-5Z68QL7Y.jpg"><img src="assets/images/certificates/cert8.jpg" alt="Sketch"></a>
+          </div>
         </div>
       </div>
     </section>
@@ -488,7 +341,7 @@
         <div class="title-icon-container">
           <div class="title-icon"><i class="pe-7s-monitor pe-2x pe-va"></i></div>
         </div>
-        <h1>Work Experience</h1>
+        <h1>Experience</h1>
       </div>
       <div class="container">
         <div class="timeline-container">
@@ -502,7 +355,7 @@
                <div class="timeline-label wow animated fadeIn" data-wow-delay="0.2s">
                 <h3>Front-End Web Developer</h3>
                 <span class="place textbold">Codify Academy</span>
-                <p>Developed Front-End single page applications as part of their curriculum.</p>
+                <p>Utilized API’s to create numerous dynamic applications with HTML, CSS, JavaScript, jQuery, React, and React Native. Used Github version control to work with developers remotely. Sketch Design conversions into working HTML, CSS, and JS. Used an Agile development process to create MERN apps</p>
               </div>
             </li>
             <li>
@@ -511,7 +364,7 @@
                 <i class="pe-7s-portfolio pe-va"></i>
               </div>
               <div class="timeline-label wow animated fadeIn" data-wow-delay="0.2s">
-                <h3>Administrative Assistant</h3>
+                <h3>Office Administrator</h3>
                 <span class="place textbold">Zanette Aviation Insurance Services, Inc.</span>
                 <p>Being a key partner for the brokers, I developed the performance and completion of routine tasks and assisted in making company decisions that strengthened our functionality. Every day brought new challenges that helped me learn to adapt quickly.</p>
               </div>
@@ -522,12 +375,207 @@
                 <i class="pe-7s-portfolio pe-va"></i>
               </div>
               <div class="timeline-label wow animated fadeIn" data-wow-delay="0.2s">
-                <h3>Wine Order Writer</h3>
+                <h3>Alcohol Section Leader</h3>
                 <span class="place textbold">Trader Joe's</span>
-                <p>Trader Joe's developed me into a dynamic and ambitious team player. I learned to balanced effective communication, work ethic, and prioritization. Being the youngest crewmember to oversee the alcohol section, I quickly adapted and became vital to the success of the store’s highest profiting section.</p>
+                <p>Trader Joe's developed me into a dynamic and ambitious team player. I learned to balanced effective communication, work ethic, and prioritization to collaborate effectively in fast-paced environments. Being the youngest crewmember to oversee the alcohol section, I quickly adapted my work flow and became vital to the success of the store’s highest profiting section.</p>
               </div>
             </li>
           </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section Begin-->
+    <section class="testimonial text-center" id="testimonial" style="background: url(assets/images/banners/banner3.jpg) center; background-size: cover; background-attachment: fixed;">
+      <div class="overlay"></div>
+      <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+        <div class="container">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="photo">
+                <img src="assets/images/person1.png" alt="Testimonial">
+              </div>
+              <div class="text">
+                "Overall, Nate was a responsible and hard-working crew member. He took on more than was asked of him and did all this with a positive attitude and a full plate. I recommend Nate and believe he will be a valuable member of your team."
+              </div>
+              <div class="separator-container">
+                <div class="separator"><div class="shape"></div></div>
+              </div>
+              <div class="name">
+                <span class="textbold">Jon Martinez</span>, Captain @ Trader Joe's
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="photo">
+                <img src="assets/images/person2.jpg" alt="Testimonial">
+              </div>
+              <div class="text">
+                "I could tell you all the things everyone already knows about Nate, but the real thing that shines about him is his hunger to be better. Someone who isn't afraid to push forward and progress constantly. This never stop attitude is what makes him a valuable asset to any team."
+              </div>
+              <div class="separator-container">
+                <div class="separator"><div class="shape"></div></div>
+              </div>
+              <div class="name">
+                <span class="textbold">Nicholas Saephanh</span>, Lead Mentor @ Codify Academy
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#testimonial-carousel" role="button" data-slide="prev" data-wow-delay="1s">
+          <div class="control-circle left"><i class="fa fa-angle-left"></i></div>
+        </a>
+        <a class="right carousel-control" href="#testimonial-carousel" role="button" data-slide="next" data-wow-delay="1s">
+          <div class="control-circle right"><i class="fa fa-angle-right"></i></div>
+        </a>
+      </div>
+    </section>
+
+    <!--Portfolio Section Begin -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="title section-title text-center wow animated fadeIn">
+          <div class="title-icon-container">
+            <div class="title-icon"><i class="pe-7s-albums pe-2x pe-va"></i></div>
+          </div>
+          <h1>My Portfolio</h1>
+        </div>
+        <div class="description">
+          <p>After working with HTML and CSS, I turned my attention to focus solely on JavaScript. Once I grasped the fundamentals of JavaScript, I jumped into understanding the architectures of libraries and frameworks.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="portfoliocontent">
+            <div class="item col-sm-6 col-xs-12">
+                <a target="_blank" href="http://www.fogtowntoys.com">
+                  <div class="content">
+                    <div class="overlay valign-container">
+                      <div class="valign-container">
+                        <div class="text valign-content">
+                          <span class="project-name">FogTownToys</span>
+                          <div class="separator-container">
+                            <div class="separator"><div class="shape"></div></div>
+                          </div>
+                          <span class="project-date">2017</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image">
+                      <img src="assets/images/ftt.jpg" alt="Portfolio image">
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item col-sm-6 col-xs-12">
+                  <a target="_blank" href="https://ndenys650.github.io/mdepuy/">
+                    <div class="content">
+                      <div class="overlay valign-container">
+                        <div class="valign-container">
+                          <div class="text valign-content">
+                            <span class="project-name">Megan Depuy<br>Speech Therapist</span>
+                            <div class="separator-container">
+                              <div class="separator"><div class="shape"></div></div>
+                            </div>
+                            <span class="project-date">2017</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="image">
+                        <img src="assets/images/mdepuy.jpg" alt="Portfolio image">
+                      </div>
+                    </div>
+                  </a>
+                </div>
+          <div class="item col-sm-6 col-xs-12">
+            <a target="_blank" href="react.html">
+              <div class="content">
+                <div class="overlay valign-container">
+                  <div class="valign-container">
+                    <div class="text valign-content">
+                      <span class="project-name">React</span>
+                      <div class="separator-container">
+                        <div class="separator"><div class="shape"></div></div>
+                      </div>
+                      <span class="project-date">2017</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="assets/images/projects/react.jpg" alt="Portfolio image">
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item col-sm-6 col-xs-12 webdesign">
+            <a target="_blank" href="js.html">
+              <div class="content">
+                <div class="overlay valign-container">
+                  <div class="valign-container">
+                    <div class="text valign-content">
+                      <span class="project-name">JavaScript</span>
+                      <div class="separator-container">
+                        <div class="separator"><div class="shape"></div></div>
+                      </div>
+                      <span class="project-date">2017</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="assets/images/projects/js.jpg" alt="Portfolio image">
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item col-sm-6 col-xs-12 webdesign">
+            <a target="_blank" href="responsive.html">
+              <div class="content">
+                <div class="overlay valign-container">
+                  <div class="valign-container">
+                    <div class="text valign-content">
+                      <span class="project-name">Responsive</span>
+                      <div class="separator-container">
+                        <div class="separator"><div class="shape"></div></div>
+                      </div>
+                      <span class="project-date">2017</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="assets/images/projects/bootstrap.jpg" alt="Portfolio image">
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item col-sm-6 col-xs-12 webdevelopment">
+            <a target="_blank" href="node.html">
+              <div class="content">
+                <div class="overlay">
+                  <div class="valign-container">
+                    <div class="text valign-content">
+                      <span class="project-name">Node</span>
+                      <div class="separator-container">
+                        <div class="separator"><div class="shape"></div></div>
+                      </div>
+                      <span class="project-date">2017</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="assets/images/projects/node.jpg" alt="Portfolio image">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-12">
+          <div class="show-more text-center">
+            <a target="_blank" href="portfolio-list.html" class="def-btn">Show More</a>
+          </div>
         </div>
       </div>
     </section>
@@ -585,22 +633,22 @@
         <div class="col-md-12 col-sm-12 links">
           <ul>
             <li class="social-icons">
-              <a href="https://github.com/ndenys650" data-toggle="tooltip" title="Check out my commits!">
+              <a target="_blank" href="https://github.com/ndenys650" data-toggle="tooltip" title="Check out my commits!">
                 <div class="circle">
                   <i class="fa fa-github"></i>
                 </div>
               </a>
-              <a href="https://twitter.com/denysfoodisgood" data-toggle="tooltip" title="Follow Me!">
+              <a target="_blank" href="https://twitter.com/denysfoodisgood" data-toggle="tooltip" title="Follow Me!">
                 <div class="circle">
                   <i class="fa fa-twitter"></i>
                 </div>
               </a>
-              <a href="https://www.linkedin.com/in/nate-denys/" data-toggle="tooltip" title="Link Up!">
+              <a target="_blank" href="https://www.linkedin.com/in/nate-denys/" data-toggle="tooltip" title="Link Up!">
                 <div class="circle">
                   <i class="fa fa-linkedin"></i>
                 </div>
               </a>
-              <a href="https://codepen.io/nate_denys/" data-toggle="tooltip" title="Check out the designer side of me!">
+              <a target="_blank" href="https://codepen.io/nate_denys/" data-toggle="tooltip" title="Check out the designer side of me!">
                 <div class="circle">
                   <i class="fa fa-codepen"></i>
                 </div>

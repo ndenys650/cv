@@ -717,6 +717,7 @@ a:hover {
   -moz-border-radius: 50%;
 }
 .testimonial .carousel .item .separator-container {
+  color: orange;
   display: block;
   width: 100%;
   text-align: center;
@@ -729,6 +730,7 @@ a:hover {
   position: relative;
 }
 .testimonial .carousel .item .separator-container .separator .shape {
+  background: #ff6600;
   height: 10px;
   width: 10px;
   transform: rotate(45deg);
@@ -736,7 +738,7 @@ a:hover {
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-  background: #ffffff;
+
 }
 .testimonial .carousel .item .separator-container .separator:before {
   content: "";
@@ -757,6 +759,7 @@ a:hover {
   top: 50%;
 }
 .testimonial .carousel .item .text {
+  color: white;
   text-align: center;
   width: 75%;
   margin: 0 auto;
@@ -765,6 +768,7 @@ a:hover {
   font-weight: normal;
 }
 .testimonial .carousel .item .name {
+  color: white;
   margin-top: 10px;
   font-size: 12px;
   font-style: italic;
